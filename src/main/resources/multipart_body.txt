@@ -1,0 +1,14 @@
+--boundary
+Content-Disposition: form-data; name="json"
+Content-Type: application/json; charset=utf-8
+
+{
+  "name": "John",
+  "age": 30
+}
+--boundary
+Content-Disposition: form-data; name="avatar"; filename="avatar.jpg"
+Content-Type: image/jpeg
+
+<some binary data>
+--boundary--
